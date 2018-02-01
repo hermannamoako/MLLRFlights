@@ -32,10 +32,8 @@ import libraries to be used for the project
 
 #select the facts of interest for the purpose of the project
 #EXTRACT SOME 9 important FEATURES To WORK WITH
-#==============================================================================
-# print(list(fdf.columns))
-# ['DAY_OF_WEEK', 'UNIQUE_CARRIER', 'ORIGIN', 'DEST', 'CRS_DEP_TIME', 'DEP_TIME', 'DEP_DELAY', 'DISTANCE', 'ARR_DELAY']
-#==============================================================================
+#['DAY_OF_WEEK', 'UNIQUE_CARRIER', 'ORIGIN', 'DEST', 'CRS_DEP_TIME', 'DEP_TIME', 'DEP_DELAY', 'DISTANCE', 'ARR_DELAY']
+
 
 #Check ifthere exist null values in the data set
 
@@ -51,10 +49,10 @@ import libraries to be used for the project
 
 
 #wHAT NEXT??
-# Separate predictors from outcome
+#Separate predictors from outcome
 
 
- #ENCODING ALL CATEGORICAL VARIABLES
+#ENCODING ALL CATEGORICAL VARIABLES
 from sklearn.preprocessing import LabelEncoder , OneHotEncoder
 
             
