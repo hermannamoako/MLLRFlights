@@ -3,10 +3,17 @@ The essence of this machine learning project is to train a machine to predict wi
 
 
 Import the data set
+
 Do data preprocessing
+
 Do some visulaizations
+
 Split the dataset
+
 Apply  ML binary classification algorithm on the training data
+
 Make prediction with the test data
+
 Measure algorithm performance
+
 Tune the regularisation parameter to improve performance of the algorithm
